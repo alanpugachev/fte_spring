@@ -1,6 +1,6 @@
 package com.alan_pugachev.spring.models;
 
-public class User {
+public class Person {
     private int id;
     private String username;
     private String firstName;
@@ -10,10 +10,10 @@ public class User {
 
 
     //constructors, setters and getters
-    public User() {
+    public Person() {
     }
 
-    public User(int id, String username, String firstName, String secondName, String email) {
+    public Person(int id, String username, String firstName, String secondName, String email) {
         this.id = id;
         this.username = username;
         this.firstName = firstName;
